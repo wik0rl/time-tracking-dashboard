@@ -6,7 +6,7 @@
             "runtime": "vercel-php@0.9.0"
         }
     },
-    "buildCommand": "npm run build",
+    "buildCommand": "npm run build && mkdir -p /tmp/views",
     "installCommand": "npm install",
     "routes": [
         {
@@ -25,6 +25,7 @@
         "ASSET_URL": "https://time-tracking-dashboard-bice-nu.vercel.app",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
+        "SESSION_DRIVER": "cookie",
+        "VIEW_COMPILED_PATH": "/tmp/views"
     }
 }
