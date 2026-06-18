@@ -13,16 +13,13 @@
             "handle": "filesystem"
         },
         {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
     "env": {
         "APP_ENV": "production",
+        "APP_DEBUG": "true",
         "APP_NAME": "Frontend Mentor | Time Tracking Dashboard",
         "APP_URL": "https://time-tracking-dashboard-bice-nu.vercel.app",
         "ASSET_URL": "https://time-tracking-dashboard-bice-nu.vercel.app",
