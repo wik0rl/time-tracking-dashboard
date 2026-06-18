@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/daily', function () {
     return view('daily');
 })->name('daily');
-Route::get('/weekly', function () {
+Route::get('/', function () {
     return view('weekly');
 })->name('weekly');
 Route::get('/monthly', function () {
