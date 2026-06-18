@@ -8,7 +8,7 @@
     },
     "installCommand": "npm install",
     "buildCommand": "npm run build",
-    "outputDirectory": "public/build/assets",
+    "outputDirectory": "public/build/assets/",
     "routes": [
         {
             "src": "/(.*)",
@@ -17,10 +17,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
         "APP_NAME": "Frontend Mentor | Time Tracking Dashboard",
-        "APP_URL": "https://time-tracking-dashboard-3mqzdqxiu-wik0rls-projects.vercel.app",
-        "ASSET_URL": "https://time-tracking-dashboard-3mqzdqxiu-wik0rls-projects.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
