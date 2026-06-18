@@ -1,6 +1,7 @@
 <svg
     {{ $attributes->merge(["class" => ""]) }}
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 21 5">
     <path
         d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
         fill="currentColor" fill-rule="evenodd"/>
