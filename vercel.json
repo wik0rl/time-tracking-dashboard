@@ -8,7 +8,7 @@
     },
     "installCommand": "npm install",
     "buildCommand": "npm run build",
-    "outputDirectory": "assets",
+    "outputDirectory": "public/build/assets",
     "routes": [
         {
             "src": "/(.*)",
