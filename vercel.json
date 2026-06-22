@@ -1,15 +1,22 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.8.0" }
+        "api/index.php": {
+            "runtime": "vercel-php@0.8.0",
+            "includeFiles": [
+                "public/build/manifest.json",
+                "public/build/fonts-manifest.json",
+                "public/index.php"
+            ]
+        }
     },
     "routes": [
         {
             "src": "/build/(.*)",
-            "dest": "/build/$1"
+            "dest": "/public/build/$1"
         },
         {
-            "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
+            "src": "/(favicon.ico|robots.txt)",
             "dest": "/public/$1"
         },
         {

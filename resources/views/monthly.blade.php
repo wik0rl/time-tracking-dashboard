@@ -15,7 +15,7 @@
             <div class="row-span-2">
                 <div class="bg-purple-600 rounded-xl mb-5 px-7 pt-8 pb-24 relative z-10">
                     <img
-                        src="{{ asset('./build/assets/image-jeremy-CA1woC3-.png') }}"
+                        src="{{ asset('build/assets/image-jeremy-CA1woC3-.png') }}"
                         class="size-18 mr-4 rounded-full border-2 border-white"
                         alt="Jeremy Robson"
                     >
@@ -31,7 +31,7 @@
             <div>
                 <div class="bg-orange flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-work-QhiGpr9_.svg') }}"
+                        src="{{ asset('build/assets/icon-work-QhiGpr9_.svg') }}"
                         class="size-14 mr-4"
                         alt="Work"
                     >
@@ -48,7 +48,7 @@
             <div>
                 <div class="bg-blue flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-play-CoKMe-eS.svg') }}"
+                        src="{{ asset('build/assets/icon-play-CoKMe-eS.svg') }}"
                         class="size-14 mr-4"
                         alt="Play"
                     >
@@ -65,7 +65,7 @@
             <div>
                 <div class="bg-pink flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-study-ZfmkjD6f.svg') }}"
+                        src="{{ asset('build/assets/icon-study-ZfmkjD6f.svg') }}"
                         class="size-14 mr-4"
                         alt="Study"
                     >
@@ -82,7 +82,7 @@
             <div>
                 <div class="bg-green flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-exercise-9I277eqF.svg') }}"
+                        src="{{ asset('build/assets/icon-exercise-9I277eqF.svg') }}"
                         class="size-14 mr-4"
                         alt="Exercise"
                     >
@@ -99,7 +99,7 @@
             <div>
                 <div class="bg-purple-700 flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-social-rDWHdBhf.svg') }}"
+                        src="{{ asset('build/assets/icon-social-rDWHdBhf.svg') }}"
                         class="size-14 mr-4"
                         alt="Social"
                     >
@@ -116,7 +116,7 @@
             <div>
                 <div class="bg-yellow flex justify-end rounded-xl">
                     <img
-                        src="{{ asset('./build/assets/icon-self-care-DojjKVXI.svg') }}"
+                        src="{{ asset('build/assets/icon-self-care-DojjKVXI.svg') }}"
                         class="size-14 mr-4"
                         alt="Self Care"
                     >
